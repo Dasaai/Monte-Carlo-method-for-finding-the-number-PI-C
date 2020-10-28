@@ -9,7 +9,7 @@ int main(void)
 {
 	srand(time(NULL));
 	int n;
-	double x, y, PUPI, square = 0, ring = 0;
+	double x, y, PI, square = 0, ring = 0;
 	printf("input n\n");
 	scanf_s("%d", &n);
 	printf("You may be waiting your whole life\n");
@@ -20,6 +20,6 @@ int main(void)
 			ring++;
 	}
 	square = n;	
-	printf("PUPI = %f\n", PUPI = ring / square * 4);
+	printf("PI = %f\n", PI = ring / square * 4);
 	_getch();
 }
